@@ -28,3 +28,9 @@ Move files to `frontend` working directory and remove tmp folder
 ```bash
 docker-compose run --rm frontend sh -c "mv -n tmp/.* ./ && mv tmp/* ./ && rm -Rf tmp"
 ```
+
+Install dependencies
+
+```bash
+docker-compose run --rm frontend sh -c "npm install"
+```
