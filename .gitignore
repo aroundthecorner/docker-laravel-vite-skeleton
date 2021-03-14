@@ -1,0 +1,4 @@
+src/backend/*
+!src/backend/Dockerfile
+src/frontend/*
+!src/frontend/Dockerfile
